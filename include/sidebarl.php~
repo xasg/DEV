@@ -1,0 +1,10 @@
+<?php 
+	include 'leftmenu.php';
+	$myleftmenu= new leftmenu();
+?>
+	<aside id="sidebar" class="column">
+		
+	<?php 
+		$myleftmenu->tipomenu("admin");
+	?>		
+	</aside><!-- end of sidebar -->
